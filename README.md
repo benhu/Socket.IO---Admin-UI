@@ -14,6 +14,6 @@ Just run like this:
 ```bash
 docker run -p 8080:80 -d doctor/who
 ```
-Image will expose port 80, just translate it to another port if you don't want to use 80.
-This image don't expose any sensitive data, get in mind that you need to secure your socket.io server, and if you use https (highly recommended), you need to expose this image in https too.
+Image will expose port 80, just translate it to another port if you don't want to use 80.\
+This image don't expose any sensitive data, get in mind that you need to secure your socket.io server, and if you use https (highly recommended), you need to expose this image in https too.\
 More informations here: [https://socket.io/docs/v4/admin-ui/]
